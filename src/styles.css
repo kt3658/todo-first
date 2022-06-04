@@ -1,0 +1,127 @@
+body {
+  font-family: sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  margin: 0;
+  padding: 0
+}
+
+input {
+  border-radius: 4px;
+  padding: 6px 16px;
+  outline: none;
+}
+
+button {
+  border-radius: 4px;
+  padding: 4px 16px;
+}
+
+button:hover {
+  background-color: gray;
+  color:white;
+  cursor: pointer;
+}
+
+.main-title {
+  background-color: #277595;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 0.8px;
+  width: 100%;
+}
+
+.add-contents {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.edit-contents {
+  text-align: center;
+  margin-top: 24px;
+}
+
+.list-contents {
+  border-radius: 4px;
+  margin: 24px auto 0; 
+  width: 60%;
+  
+}
+
+.list-row {
+  border: 1px solid #ced4da;
+  display: block;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  padding: 14px 36px;
+  text-align: center;
+}
+
+.delete-button {
+  margin-left: 8px;
+  background-color: #d03c21;
+  color: white;
+  border: none;
+  padding: 6px 16px;
+}
+
+.delete-button:hover {
+  background-color: #b42910;
+}
+
+.edit-button {
+  margin-left: 8px;
+  border: none;
+  background-color: rgb(91, 87, 87);
+  color: white;
+  padding: 6px 16px;
+}
+
+.edit-button:hover {
+  background-color: rgb(70, 67, 67);
+}
+
+.box-button {
+  margin-left: 8px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  outline: none;
+}
+
+.cancel-button {
+  margin-left: 4px;
+  border:none;
+  padding: 6px 16px;
+}
+
+.cancel-button:hover {
+  background-color: rgb(205, 205, 205);
+  color: gray;
+}
+
+.upload-button {
+  margin-left: 4px;
+  border: none;
+  padding: 6px 16px;
+  background-color: rgb(40, 125, 191);
+  color: white;
+}
+
+.upload-button:hover {
+  background-color: rgb(30, 108, 167);
+}
+
+
+@media screen and (max-width: 600px) {
+  .list-contents {
+    width: 100%;
+    
+  }
+}
